@@ -1,0 +1,34 @@
+.df{display: flex !important;}
+.fxdc{flex-direction: column !important;}
+.aic{align-items: center !important;}
+.jcc{justify-content: center !important;}
+.jcsb{justify-content: space-between !important;}
+.jcfe{justify-content: flex-end !important;}
+.fww{flex-wrap: wrap;}
+
+.tar{text-align: right;}
+.tac{text-align: center;}
+.sm{font-size: 80%;}
+
+.scroll{
+	overflow-y: auto;
+
+	&::-webkit-scrollbar {
+		width: 8px;
+	}
+	&::-webkit-scrollbar:horizontal {
+		height: 8px;
+	}
+	&::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+	 
+	&::-webkit-scrollbar-thumb {
+		background: #757575;
+		border-radius: 6px;
+	}
+	
+	&::-webkit-scrollbar-thumb:hover {
+		background: #565656;
+	}
+}

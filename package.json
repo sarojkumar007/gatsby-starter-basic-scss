@@ -1,0 +1,48 @@
+{
+  "name": "gatsby-starter-basic-scss",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-starter-basic-scss",
+  "author": "Saroj Kumar Sahoo",
+  "keywords": [
+    "gatsby",
+    "basic-scss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarojkumar007/gatsby-starter-basic-scss.git"
+  },
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/sarojkumar007/gatsby-starter-basic-scss/issues"
+  },
+  "homepage": "https://github.com/sarojkumar007/gatsby-starter-basic-scss#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^4.13.0",
+    "gatsby-plugin-manifest": "^4.13.0",
+    "gatsby-plugin-mdx": "^3.13.0",
+    "gatsby-plugin-react-helmet": "^5.13.0",
+    "gatsby-plugin-sass": "^5.13.0",
+    "gatsby-plugin-sitemap": "^5.13.0",
+    "gatsby-source-filesystem": "^4.13.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.51.0"
+  },
+  "scripts": {
+    "start": "gatsby develop",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "build": "gatsby build",
+    "watch:sass": "sass src/sass/main.scss src/css/style.min.css --watch",
+    "build:css": "sass src/sass/main.scss src/css/style.min.css --style=compressed",
+    "build-all": "npm run build:css & npm run build"
+  }
+}
